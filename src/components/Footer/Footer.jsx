@@ -38,12 +38,19 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaFacebook />, link: "https://www.facebook.com/shivam.kumar.178379/" },
-            { icon: < FaGithub />, link: "https://github.com/Shivam954629" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/shivam-kumar-23467b1b8/" },
-            { icon: <FaInstagram />, link: "https://www.instagram.com/__shivi44__/" },
-            
-            
+            {
+              icon: <FaFacebook />,
+              link: "https://www.facebook.com/shivam.kumar.178379/",
+            },
+            { icon: <FaGithub />, link: "https://github.com/Shivam954629" },
+            {
+              icon: <FaLinkedin />,
+              link: "https://www.linkedin.com/in/shivam-kumar-23467b1b8/",
+            },
+            {
+              icon: <FaInstagram />,
+              link: "https://www.instagram.com/__shivi44__/",
+            },
           ].map((item, index) => (
             <a
               key={index}
@@ -59,7 +66,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Shivam kumar. All rights reserved.
+          © {new Date().getFullYear()} Shivam kumar. All rights reserved.
         </p>
       </div>
     </footer>
