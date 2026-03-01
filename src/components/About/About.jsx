@@ -10,10 +10,8 @@ const About = () => {
       className="py-6 px-[7vw] md:px-[7vw] lg:px-[15vw] font-sans mt-20 md:mt-28 lg:mt-36"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
-
         {/* LEFT SIDE */}
         <div className="md:w-1/2 text-center md:text-left mt-10 md:mt-0">
-
           {/* Greeting */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
             Hi, I am
@@ -32,7 +30,6 @@ const About = () => {
                 "Fullstack Developer",
                 "Frontend Developer",
                 "MERN Developer",
-               
               ]}
               loop={0}
               cursor
@@ -45,14 +42,15 @@ const About = () => {
 
           {/* About Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mt-8 leading-relaxed">
-            I am a full-stack developer with strong experience in building scalable web applications. 
-            Skilled in both front-end and back-end development, I specialize in the MERN stack, 
-            UI design, animations, and creating smooth user experiences.
+            I am a full-stack developer with strong experience in building
+            scalable web applications. Skilled in both front-end and back-end
+            development, I specialize in the MERN stack, UI design, animations,
+            and creating smooth user experiences.
           </p>
 
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/uc?export=download&id=1O1XbPF6MQmOd7aGilPLyHegWqBFnN0gb"
+            href="https://drive.google.com/file/d/1eg7kanNFRkti9v725of4WtpaO6SL2Pkm/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-8 text-lg font-bold transition duration-300 transform hover:scale-105 hover:shadow-lg"
@@ -84,7 +82,6 @@ const About = () => {
             />
           </Tilt>
         </div>
-
       </div>
     </section>
   );
