@@ -179,7 +179,7 @@ export const projects = [
     ],
     category: "fullstack",
     github: "https://github.com/Shivam954629/AI-thumbnail-generator",
-    webapp: "https://ai-thumbnail-generator-server-sepia.vercel.app/",
+    webapp: "https://ai-thumbnail-generator-fawn-iota.vercel.app/",
   },
   {
     id: 2,
